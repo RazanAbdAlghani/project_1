@@ -18,7 +18,9 @@ ul {
 a {
     text-decoration: solid;
 }
-
+button{
+    text-decoration: solid;
+}
 .container {
     width: calc(100% - 324px);
     margin: auto;
@@ -1975,7 +1977,7 @@ footer .footer-left-side {
     gap: 8px;
 }
 
-.footer-item ul li {
+.footer-item ul li a {
     color: var(--grey-35, #59595A);
     font-size: 18px;
 
@@ -2098,7 +2100,7 @@ footer p {
         gap: 8px;
     }
 
-    .footer-item ul li {
+    .footer-item ul li a {
         font-size: 16px;
 
     }
@@ -2198,7 +2200,7 @@ footer p {
         gap: 4px;
     }
 
-    .footer-item ul li {
+    .footer-item ul li a {
         font-size: 14px;
 
     }
